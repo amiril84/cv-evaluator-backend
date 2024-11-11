@@ -67,7 +67,7 @@ const upload = multer({
 
 // Middleware
 app.use(cors({
-  origin: ['http://cv-evaluator-frontend-production.up.railway.app', 'http://cv-evaluator-backend-production.up.railway.app'],
+  origin: 'https://cv-evaluator-frontend-production.up.railway.app',
   methods: ['GET', 'POST'],
   credentials: true
 }));
